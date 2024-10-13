@@ -1,1 +1,0 @@
-Fine Furnishings - Order Confirmation # {{ order.order_number }}
