@@ -5,95 +5,10 @@
     ViewBag.Title = "Home"; // Optionally set the page title
 }
 
-<!-- Hero Image -->
-<style>
-    .hero-container {
-        background-image: url("/images/hero-image-horsebox.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        position: relative;
-    }
-
-    /* Media query for mobile screens */
-    
-        .jumbotron {
-            top: 45% !important;
-            position: absolute !important;
-            left: 50%;
-            transform: translate(-50%, -50%) !important;
-        }
-        .event-banner {
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        .event-banner img {
-            margin-bottom: 1rem;
-            max-width: 120px;
-        }
-    }
-
-    .jumbotron {
-        background-color: rgba(246, 195, 198, 0.8);
-        border-radius: 0.5rem;
-        padding: 2rem;
-        color: #fff;
-        position: absolute;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 90%;
-        max-width: 800px;
-        z-index: 10;
-        text-align: center;
-    }
-
-    .jumbotron h6, .jumbotron h1 {
-        color: #fff;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    }
-
-    .event-banner {
-        background-color: #f0f0f0;
-        border: 1px solid #ddd;
-        border-radius: 0.5rem;
-        padding: 1rem;
-        margin: 1rem auto;
-        max-width: 90%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        color: #333;
-    }
-
-    .event-banner img {
-        max-width: 80px;
-        height: auto;
-        margin-right: 1rem;
-        border-radius: 0.5rem;
-    }
-
-    .event-banner .event-details {
-        flex: 1;
-    }
-
-    .event-banner a {
-        color: #007bff;
-        text-decoration: none;
-    }
-
-    .event-banner a:hover {
-        text-decoration: underline;
-    }
-</style>
+<head>
+    <title>Nags With Notions</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
 
 <div class="hero-container">
     <div id="hero" class="jumbotron jumbotron-fluid">
