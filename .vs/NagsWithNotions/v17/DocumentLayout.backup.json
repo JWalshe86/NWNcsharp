@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\johnwalshe\\projects\\NagsWithNotions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D16108C-5C17-46F5-B3CA-CACC9C939CFD}|NagsWithNotions\\NagsWithNotions.csproj|c:\\users\\johnwalshe\\projects\\nagswithnotions\\nagswithnotions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D16108C-5C17-46F5-B3CA-CACC9C939CFD}|NagsWithNotions\\NagsWithNotions.csproj|solutionrelative:nagswithnotions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D16108C-5C17-46F5-B3CA-CACC9C939CFD}|NagsWithNotions\\NagsWithNotions.csproj|c:\\users\\johnwalshe\\projects\\nagswithnotions\\nagswithnotions\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D16108C-5C17-46F5-B3CA-CACC9C939CFD}|NagsWithNotions\\NagsWithNotions.csproj|solutionrelative:nagswithnotions\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\johnwalshe\\projects\\NagsWithNotions\\NagsWithNotions\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "NagsWithNotions\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\johnwalshe\\projects\\NagsWithNotions\\NagsWithNotions\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "NagsWithNotions\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T18:52:13.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\johnwalshe\\projects\\NagsWithNotions\\NagsWithNotions\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NagsWithNotions\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\johnwalshe\\projects\\NagsWithNotions\\NagsWithNotions\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NagsWithNotions\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T18:46:47.535Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
