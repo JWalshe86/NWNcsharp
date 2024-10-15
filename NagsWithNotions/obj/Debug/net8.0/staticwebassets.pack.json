@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\NagsWithNotions.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\johnwalshe\\projects\\NagsWithNotions\\NagsWithNotions\\wwwroot\\css\\navbar.css",
+      "PackagePath": "staticwebassets\\css\\navbar.css"
+    },
+    {
       "Id": "C:\\Users\\johnwalshe\\projects\\NagsWithNotions\\NagsWithNotions\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
