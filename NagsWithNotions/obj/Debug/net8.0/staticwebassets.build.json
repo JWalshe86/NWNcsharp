@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aGF+6orFF6qQM4USgQi9W7ta9+2vLyPHO5MBASNJlB4=",
+  "Hash": "QGY1q1WT2w6mxb6X+qZQJgHXBJm1cBm6p5Xn7durYv0=",
   "Source": "NagsWithNotions",
   "BasePath": "_content/NagsWithNotions",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\johnwalshe\\projects\\NagsWithNotions\\NagsWithNotions\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NagsWithNotions.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\johnwalshe\\projects\\NagsWithNotions\\NagsWithNotions\\wwwroot\\css\\navbar.css",
+      "SourceId": "NagsWithNotions",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johnwalshe\\projects\\NagsWithNotions\\NagsWithNotions\\wwwroot\\",
+      "BasePath": "_content/NagsWithNotions",
+      "RelativePath": "css/navbar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\navbar.css"
     },
     {
       "Identity": "C:\\Users\\johnwalshe\\projects\\NagsWithNotions\\NagsWithNotions\\wwwroot\\css\\site.css",
