@@ -1,13 +1,10 @@
-﻿@* 
-@model YourNamespace.YourViewModel 
-*@
-@{
+﻿@{
     ViewBag.Title = "Home"; // Optionally set the page title
 }
 
 <head>
     <title>Nags With Notions</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css"> <!-- Ensure the correct path for your CSS -->
 </head>
 
 <div class="hero-container">
@@ -17,31 +14,38 @@
             <h1 class="lead">Sourdough Pizza using some of Meath's Finest Food Producers</h1>
 
             <!-- Upcoming Event Banner inside the jumbotron -->
-            @* Commented out the model-related code for now *@
-            @* 
-            {% if upcoming_event %}
+            @{
+                // Placeholder for upcoming event logic
+                var upcomingEventExists = false; // This should be false since you haven't added the model yet.
+            }
+
+            @if (upcomingEventExists)
+            {
                 <div class="event-banner">
-                    {% if upcoming_event.image %}
-                        <img src="{{ upcoming_event.image.url }}" alt="{{ upcoming_event.name }}">
-                    {% else %}
-                        <img src="{% static 'images/default-event.jpg' %}" alt="Default Event Image">
-                    {% endif %}
+                    <img src="~/images/sample-event.jpg" alt="Sample Event Name" />
                     <div class="event-details">
                         <strong>Upcoming Event:</strong>
-                        <a href="{% url 'event_detail' upcoming_event.id %}">{{ upcoming_event.name }}</a>
-                        <p>{{ upcoming_event.start_date|date:"F j, Y" }}</p>
+                        <a href="#">Sample Event Name</a>
+                        <p>Sample Date</p>
                     </div>
                 </div>
-            {% endif %}
-            *@
+            }
+            else
+            {
+                <div class="event-banner">
+                    <img src="~/images/default-event.jpg" alt="Default Event Image" />
+                    <div class="event-details">
+                        <strong>No Upcoming Event</strong>
+                        <p>Check back later for updates!</p>
+                    </div>
+                </div>
+            }
         </div>
     </div>
 </div>
 <!-- /.Hero Image End -->
-
-<!-- Instagram Posts -->
-{% include 'insta/instagram_home.html' %}
-
+<!-- Include Instagram Posts Section -->
+@Html.Partial("instagram_home") <!-- If your partial view is in Views/Shared/ or Views/Home/ -->
 <!-- Contact Form -->
 <div class="container mt-5">
     {% include "contact.html" %}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NagsWithNotions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a77f1e1593a6dea4c0e3986dce693417f7cb793d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4120c067201b8aab1d3377765deba2bb00403e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("NagsWithNotions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NagsWithNotions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

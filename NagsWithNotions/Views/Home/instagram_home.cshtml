@@ -1,0 +1,87 @@
+﻿<div class="container mt-5">
+    <h2 class="instagram-heading">Latest Instagram Post</h2>
+
+    <!-- Placeholder check to avoid model null reference errors -->
+    @if (ViewBag.LatestPost != null)
+    {
+        <div class="instagram-post">
+            @if (ViewBag.LatestPost.MediaType == "IMAGE")
+            {
+                <img src="@ViewBag.LatestPost.MediaUrl" alt="Instagram Post" class="img-fluid" />
+            }
+            else if (ViewBag.LatestPost.MediaType == "VIDEO")
+            {
+                <video controls class="img-fluid">
+                    <source src="@ViewBag.LatestPost.MediaUrl" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            }
+            else if (ViewBag.LatestPost.MediaType == "CAROUSEL_ALBUM")
+            {
+                @if (ViewBag.LatestPost.CarouselMedia != null)
+                {
+                    @foreach (var media in ViewBag.LatestPost.CarouselMedia)
+                    {
+                        <img src="@media.MediaUrl" alt="Instagram Post" class="img-fluid" />
+                    }
+                }
+            }
+
+            <p class="instagram-caption">
+
+            </p>
+            <a href="@ViewBag.LatestPost.Permalink" target="_blank">View on Instagram</a>
+        </div>
+    }
+    else
+    {
+        <p>No posts available.</p>
+    }
+</div>
+
+<!-- CSS styling -->
+<style>
+    .instagram-post {
+        background-color: #f8d7da;
+        border: 1px solid #ddd;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 2rem auto;
+        max-width: 90%;
+        text-align: center;
+    }
+
+        .instagram-post img, .instagram-post video {
+            width: 100%;
+            max-height: 50vh;
+            height: auto;
+            object-fit: cover;
+            border-radius: 0.5rem;
+        }
+
+    .instagram-heading {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .instagram-caption {
+        font-size: 1rem;
+        color: #555;
+        margin-top: 0.5rem;
+    }
+
+    .instagram-post a {
+        display: inline-block;
+        margin-top: 0.5rem;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .instagram-post a:hover {
+            text-decoration: underline;
+        }
+</style>
