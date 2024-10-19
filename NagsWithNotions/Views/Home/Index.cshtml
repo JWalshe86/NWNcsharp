@@ -15,8 +15,7 @@
 
             <!-- Upcoming Event Banner inside the jumbotron -->
             @{
-                // Placeholder for upcoming event logic
-                var upcomingEventExists = false; // This should be false since you haven't added the model yet.
+                var upcomingEventExists = false; // Set to false for now
             }
 
             @if (upcomingEventExists)
@@ -45,14 +44,13 @@
 </div>
 <!-- /.Hero Image End -->
 <!-- Include Instagram Posts Section -->
-@Html.Partial("instagram_home") <!-- If your partial view is in Views/Shared/ or Views/Home/ -->
+@Html.Partial("instagram_home") <!-- Ensure that the partial view exists -->
 <!-- Contact Form -->
 <div class="container mt-5">
-    {% include "contact.html" %}
+    @Html.Partial("contact") <!-- Include the contact partial view -->
 </div>
 
 <!-- About Section -->
-{% include "about.html" %}
-
+@Html.Partial("about") <!-- Include about section partial -->
 <!-- Menu Card Section -->
-{% include "pizza_system/menu_card.html" %}
+@Html.Partial("menu_card") <!-- Ensure correct path and name for the menu card partial -->
