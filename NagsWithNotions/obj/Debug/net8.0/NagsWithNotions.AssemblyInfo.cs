@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("6fd8996d-fd17-4698-9b3b-0af4befb98fc")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NagsWithNotions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf047fb12d609f778d84ddd7e027dbdbb0edff0f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ceff1a88598896331803f1e6b342ab6cf5f2a7ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("NagsWithNotions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NagsWithNotions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
